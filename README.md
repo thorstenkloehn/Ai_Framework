@@ -1,8 +1,18 @@
 # Ai_Framework
 
-Projekt-Übersicht: Ziel, Roadmap-Phasen und aktueller Stand dieses Repos. Details zu
-Didaktik/Workflow des Mentor-Modus stehen in roadmap.md, Hinweise für Claude Code in
-CLAUDE.md.
+## Über dieses Dokument
+Diese README ist die zentrale Projekt-Übersicht des Repos und beantwortet: Was wird
+gebaut, in welchen Schritten, und wo steht das Projekt gerade. Sie enthält:
+- **Ziel** — was das Framework können soll und wofür (Abschnitt "Fahrplan").
+- **Phase 1–7** — die geplanten Ausbaustufen von Workspace-Grundgerüst bis
+  crates.io-Release.
+- **Agiler Zyklus** — der Prozessrahmen, den jede einzelne Aufgabe durchläuft.
+- **Mentor-Modus** — Kurzhinweis, dass dies ein Lernprojekt mit eigenem Workflow ist
+  (Details in roadmap.md).
+- **Ist-Zustand** — was im Repo tatsächlich schon existiert vs. was noch fehlt.
+
+Verwandte Dateien: roadmap.md (Didaktik/Stil/Workflow des Mentor-Modus im Detail),
+CLAUDE.md (Hinweise für Claude Code: Befehle, Architektur, Repo-Eigenheiten).
 
 # KI-Framework Praxis-Projektpfad — Fahrplan
 Ziel: eigenständiges Rust-Crate/KI-Framework (LLM, Agenten, RAG) als Dependency für andere
