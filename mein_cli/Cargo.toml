@@ -1,0 +1,7 @@
+[package]
+name = "mein_cli"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+mein_core = {path="../mein_core"}
