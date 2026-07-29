@@ -4,3 +4,4 @@ target/
 google
 google/
 .copilotignore
+.github/
