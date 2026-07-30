@@ -1,0 +1,32 @@
+[book]
+title = "KI-Framework mit Rust — Der Praxiskurs"
+description = "Ein vollständiger Anfängerkurs: Wir lernen Rust und Softwarearchitektur, indem wir Schritt für Schritt ein eigenes KI-Framework (LLM, Agenten, RAG) bauen — begleitend zu github.com/thorstenkloehn/Ai_Framework."
+authors = ["Thorsten Klöhn"]
+language = "de"
+src = "src"
+
+[build]
+build-dir = "book"
+create-missing = false
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/thorstenkloehn/Ai_Framework"
+edit-url-template = "https://github.com/thorstenkloehn/Ai_Framework/edit/main/{path}"
+site-url = "/"
+mathjax-support = false
+
+[output.html.search]
+enable = true
+limit-results = 20
+use-boolean-and = true
+
+[output.html.fold]
+enable = true
+level = 1
+
+[output.html.playground]
+editable = false
+copyable = true
+line-numbers = true
